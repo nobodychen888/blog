@@ -1,49 +1,49 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+# Hexo 核心配置文件
+# 详解文档: https://hexo.io/docs/configuration.html
 
-# Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+# 网站基础设置
+title: 河对岸人的博客          # 网站标题
+subtitle: '感谢AI，能让小白感受做大佬的快乐'                # 网站副标题
+description: '探索VPS服务器搭建、网络安全协议、AI应用。V2Board/Xboard教程，记录从技术新手到进阶的成长历程，偶尔也扯一下无聊的生活日常'             # 网站描述（对 SEO 有帮助）
+keywords: 'VPS, 网络协议, AI玩技术, SEO优化, 扯生活, Cloudflare, 技术教程, 河对岸的人'                   # 网站关键词
+author: 河对岸的人           # 作者名字
+language: zh-CN             # 语言设置（建议改为 zh-CN 以支持中文界面）
+timezone: 'Asia/Shanghai'   # 时区设置
 
-# URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://vx258.com
-permalink: :year/:month/:day/:title/
+# 网站 URL 设置
+url: https://vx258.com      # 你的网站网址
+permalink: :year/:month/:day/:title/  # 文章链接格式
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true 
+  trailing_html: true 
 
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+# 目录设置
+source_dir: source          # 源码文件夹
+public_dir: public          # 生成的静态网页文件夹
+tag_dir: tags               # 标签目录
+archive_dir: archives       # 归档目录
+category_dir: categories     # 分类目录
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render:                # 跳过渲染的文件/文件夹
 
-# Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
+# 文章写作设置
+new_post_name: :title.md    # 新文章的默认文件名
+default_layout: post        # 默认布局
+titlecase: false 
 external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
+  enable: true 
+  field: site 
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true    # 是否开启资源文件夹（文章内插图建议开启）
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
+syntax_highlighter: highlight.js # 代码高亮工具
+
+# 代码高亮详细配置
 highlight:
   line_number: true
   auto_detect: false
@@ -55,50 +55,34 @@ prismjs:
   line_number: true
   tab_replace: ''
 
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
+# 首页设置
 index_generator:
   path: ''
-  per_page: 10
-  order_by: -date
+  per_page: 10              # 首页每页显示多少篇文章
+  order_by: -date           # 按日期倒序排列
 
-# Category & Tag
+# 分类与标签
 default_category: uncategorized
 category_map:
 tag_map:
 
-# Metadata elements
-## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+# 元数据
 meta_generator: true
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
+# 时间日期格式
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'
 
-# Pagination
-## Set per_page to 0 to disable pagination
+# 分页设置
 per_page: 10
 pagination_dir: page
 
-# Include / Exclude file(s)
-## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
-
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
+# 主题设置 (非常重要！)
+# 请确保 themes/ 文件夹下确实有一个文件夹叫 hexo-theme-ayer-master
+# 如果你把文件夹改名为 ayer，这里也要改成 theme: ayer
 theme: hexo-theme-ayer-master
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+# 部署设置 (Cloudflare Pages 模式下这里通常留空，因为是通过 Git 触发的)
 deploy:
   type: ''
