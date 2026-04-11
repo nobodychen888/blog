@@ -7,7 +7,7 @@ menu:
   # 标签: /tags
   # 旅行: /tags/旅行/          <-- 前面加了 # 号，它就不会在网页上显示了
   # 摄影: http://shenyu-vip.lofter.com
-  DJKK: / https://djkk.me
+  DJKK: https://djkk.me
   关于我: /about              
 
 # 站点次标题和打字动效
