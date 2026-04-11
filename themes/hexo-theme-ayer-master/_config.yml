@@ -3,9 +3,9 @@
 menu:
   主页: /
   分类: /archives
-  瞎扯: /categories/xc/
-  分享: /categories/fx/
-  交易为生: /categories/jyws/
+  瞎扯: /categories/瞎扯/
+  分享: /categories/分享/
+  交易为生: /categories/交易为生/
   # 标签: /tags
   # 旅行: /tags/旅行/          <-- 前面加了 # 号，它就不会在网页上显示了
   # 摄影: http://shenyu-vip.lofter.com
