@@ -22,8 +22,8 @@ pretty_urls:
 source_dir: source          # 源码文件夹
 public_dir: public          # 生成的静态网页文件夹
 tag_dir: tags               # 标签目录
-archive_dir: archives      # 瞎扯淡目录
-category_dir: categories     # 教程目录
+archive_dir: archives      # 分类目录
+category_dir: categories     # 路径根目录
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:                # 跳过渲染的文件/文件夹

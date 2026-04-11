@@ -4,7 +4,7 @@ menu:
   主页: /
   分类: /archives
   瞎扯: /categories/瞎扯/
-  教程: /categories/教程/
+  分享: /categories/分享/
   交易为生: /categories/交易为生/
   # 标签: /tags
   # 旅行: /tags/旅行/          <-- 前面加了 # 号，它就不会在网页上显示了
@@ -101,7 +101,7 @@ search: true
 
 # RSS订阅(先安装hexo-generator-feed插件，再去博客根目录config进行配置)
 # 不想显示可以直接留空
-rss: /atom.xml
+# rss: /atom.xml
 
 # 是否启用黑夜模式开关
 darkmode: true

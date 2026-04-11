@@ -2,7 +2,7 @@
 title: 拿到 VPS 的第一件事：修改 SSH 端口与启用密钥登录（保姆级教程）
 date: 2026-04-09 01:59:56
 categories: 
-  - 教程
+  - 分享
 tags: 
   - VPS
   - SSH
