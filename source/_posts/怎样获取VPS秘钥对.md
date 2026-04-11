@@ -1,5 +1,5 @@
 ---
-title: 怎样获取VPS秘钥对？
+title: 本地获取VPS秘钥对（超级简单）
 date: 2026-04-12 03:32:29
 categories: 
   - 分享
