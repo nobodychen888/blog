@@ -2,12 +2,12 @@
 # 侧边栏菜单
 menu:
   主页: /
-  瞎扯淡: /archives
-  教程: /categories
+  瞎扯: /archives/瞎扯
+  教程: /categories/教程
   # 标签: /tags
   # 旅行: /tags/旅行/          <-- 前面加了 # 号，它就不会在网页上显示了
   # 摄影: http://shenyu-vip.lofter.com
-  DJKK Cloud: / https://djkk.me
+  DJKK: / https://djkk.me
   关于我: /about              
 
 # 站点次标题和打字动效
