@@ -2,13 +2,13 @@
 # 侧边栏菜单
 menu:
   主页: /
-  归档: /archives
-  分类: /categories
-  标签: /tags
+  瞎扯淡: /archives
+  教程: /categories
+  # 标签: /tags
   # 旅行: /tags/旅行/          <-- 前面加了 # 号，它就不会在网页上显示了
   # 摄影: http://shenyu-vip.lofter.com
-  友链: / https://djkk.me
-  关于我: /about               <-- 把原来的 /2019 去掉了，更标准
+  DJKK Cloud: / https://djkk.me
+  关于我: /about              
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
@@ -81,7 +81,7 @@ word_count:
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: "请我喝杯咖啡吧~"
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
@@ -128,7 +128,7 @@ github:
 
 # 网易云音乐插件
 music:
-  enable: true
+  enable: false
   # 播放器尺寸类型(1：小尺寸、2：大尺寸)
   type: 1
   id: 22707008 # 网易云分享的音乐ID(更换音乐请更改此配置项)
