@@ -2,11 +2,11 @@
 # 详解文档: https://hexo.io/docs/configuration.html
 
 # 网站基础设置
-title: 大义今朝          # 网站标题
+title: 路由成精的博客          # 网站标题
 subtitle: '感谢AI，能让小白感受做大佬的快乐'                # 网站副标题
 description: '探索VPS服务器搭建、网络安全协议、AI应用、教程，期货交易；记录从技术新手到进阶的成长历程，交易为生是我的梦想，偶尔也扯一下无聊的生活日常'             # 网站描述（对 SEO 有帮助）
 keywords: 'VPS, 交易、网络协议, AI玩技术, SEO优化, 扯生活, Cloudflare, 技术教程, 大义今朝'                   # 网站关键词
-author: 大义今朝           # 作者名字
+author: 路由成精           # 作者名字
 language: zh-CN             # 语言设置（建议改为 zh-CN 以支持中文界面）
 timezone: 'Asia/Shanghai'   # 时区设置
 
