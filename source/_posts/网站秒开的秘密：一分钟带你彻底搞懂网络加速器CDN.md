@@ -1,14 +1,15 @@
 ---
 title: 网站秒开的秘密：一分钟带你彻底搞懂网络加速器CDN
-date: 2026-04-17 04:54:11
-categories: 
+categories:
   - 分享
-tags: 
+tags:
   - CDN
   - 网络科普
   - DJKK Cloud
   - 路由成精
   - CloudFlare
+abbrlink: 21633
+date: 2026-04-17 04:54:11
 ---
 
 # 网站秒开的秘密：一分钟带你彻底搞懂网络“加速器”CDN！

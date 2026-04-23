@@ -1,14 +1,15 @@
 ---
 title: 本地获取VPS秘钥对（超级简单）
-date: 2026-04-12 03:32:29
-categories: 
+categories:
   - 分享
-tags: 
+tags:
   - VPS
   - 秘钥对获取
   - 网络安全
   - DJKK Cloud
   - 大义今朝
+abbrlink: 45403
+date: 2026-04-12 03:32:29
 ---
 
 接上期，上期分享了[拿到VPS的第一件事，修改SSH端口和使用秘钥登录](https://www.vx258.com/2026/04/08/%E6%8B%BF%E5%88%B0VPS%E7%9A%84%E7%AC%AC%E4%B8%80%E4%BB%B6%E4%BA%8B%EF%BC%8C%E4%BF%AE%E6%94%B9SSH%E7%AB%AF%E5%8F%A3%E5%92%8C%E4%BD%BF%E7%94%A8%E7%A7%98%E9%92%A5%E7%99%BB%E5%BD%95/)，今天把获取本地秘钥的方法分享给大家。

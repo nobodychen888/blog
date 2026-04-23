@@ -12,7 +12,7 @@ timezone: 'Asia/Shanghai'   # 时区设置
 
 # 网站 URL 设置
 url: https://vx258.com      # 你的网站网址
-permalink: :year/:month/:day/:title/  # 文章链接格式
+permalink: posts/:abbrlink.html  # 文章链接格式
 permalink_defaults:
 pretty_urls:
   trailing_index: true 
