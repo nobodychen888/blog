@@ -1,15 +1,16 @@
 ---
 title: 小白必看：VPS防火墙入门指南 (UFW与宝塔谁更好？)
-date: 2026-04-12 22:59:44
-categories: 
+categories:
   - 分享
-tags: 
+tags:
   - VPS
   - 防火墙设置
   - 网络安全
   - DJKK Cloud
   - 大义今朝
   - UFW
+abbrlink: 41776
+date: 2026-04-12 22:59:44
 ---
 
 
