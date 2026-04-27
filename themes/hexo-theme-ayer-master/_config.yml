@@ -250,3 +250,9 @@ lock:
 # 自动生成 sitemap 网站地图
 sitemap:
   path: sitemap.xml
+
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+ 
