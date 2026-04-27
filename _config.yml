@@ -81,7 +81,7 @@ pagination_dir: page
 # 主题设置 (非常重要！)
 # 请确保 themes/ 文件夹下确实有一个文件夹叫 hexo-theme-ayer-master
 # 如果你把文件夹改名为 ayer，这里也要改成 theme: ayer
-theme: hexo-theme-ayer-master
+theme: hexo-theme-fluid-master
 
 # 部署设置 (Cloudflare Pages 模式下这里通常留空，因为是通过 Git 触发的)
 deploy:
