@@ -15,6 +15,8 @@ abbrlink: 5023
 date: 2026-05-06 01:57:28
 ---
 
+**Youtube视频教程**：https://youtu.be/UBXmvVZgMqo
+
 今天给大家带来一个非常实用的 GitHub 开源项目，教大家如何利用 Cloudflare 的生态系统搭建一个**完全免费**的个人图床。
 
 该方案的巧妙之处在于：**使用 Cloudflare Pages 部署前端，KV 存储元数据，D1 存储数据库，而真正的图片文件则存储在 Telegram 上**（利用 TG 的无限容量作为免费硬盘）。
