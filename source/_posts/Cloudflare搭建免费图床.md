@@ -178,3 +178,13 @@ CREATE TRIGGER IF NOT EXISTS update_other_data_updated_at
 
 1. 获取 Token：关注机器人 `@BotFather`，根据提示创建一个新机器人，获取 API Token。
 2. 获取 Chat ID：关注机器人 `@VersaToolsBot`，向其发送一条消息即可获得你的个人 Chat ID。
+
+
+> ### 🚀 [DJKK.me - 极致性价比之选](https://djkk.me)
+>
+> * **超级价格**：低至 **3元/月**
+> * **流量充足**：每月 **128GB** 纯净流量。
+> * **最佳搭档**：完美支持 ChatGPT、Gemini。
+>
+> **👉 [立即点击直达（手慢无！）](https://djkk.me)**
+- [官方频道](https://t.me/Trumpchina888)
