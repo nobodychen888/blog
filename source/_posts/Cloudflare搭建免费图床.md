@@ -158,6 +158,7 @@ CREATE TRIGGER IF NOT EXISTS update_other_data_updated_at
     BEGIN
         UPDATE other_data SET updated_at = CURRENT_TIMESTAMP WHERE key = NEW.key;
     END;
+	```
 
 ## 6. 绑定 D1 数据库
 
