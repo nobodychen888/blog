@@ -1,6 +1,5 @@
 ---
 title: 利用 Cloudflare + Telegram 搭建永久免费图床：零成本 Pages/D1/KV 全攻略
-date: 2026-05-06 01:57:28
 tags:
   - Cloudflare
   - 图床
@@ -10,8 +9,10 @@ tags:
 categories:
   - 技术分享
   - 实用工具
-keywords: Cloudflare图床, 免费图床, Telegram图床, CloudFlare-ImgBed, 搭建教程
+keywords: 'Cloudflare图床, 免费图床, Telegram图床, CloudFlare-ImgBed, 搭建教程'
 description: 详细教你如何利用 Cloudflare Pages、D1 数据库和 KV 存储，配合 Telegram 机器人搭建一个完全免费、不限容量的个人图床系统。
+abbrlink: 5023
+date: 2026-05-06 01:57:28
 ---
 
 今天给大家带来一个非常实用的 GitHub 开源项目，教大家如何利用 Cloudflare 的生态系统搭建一个**完全免费**的个人图床。
@@ -158,29 +159,21 @@ CREATE TRIGGER IF NOT EXISTS update_other_data_updated_at
         UPDATE other_data SET updated_at = CURRENT_TIMESTAMP WHERE key = NEW.key;
     END;
 
-六、绑定 D1 数据库
-回到 Pages 项目的 设置 -> 函数。
+## 6. 绑定 D1 数据库
 
-找到 D1 数据库绑定，点击“添加绑定”：
+1. 回到 Pages 项目的 **设置** -> **函数**。
+2. 找到 **D1 数据库绑定**，点击“添加绑定”：
+   - **变量名称**：`img_d1`
+   - **D1 数据库**：选择刚才创建的 `img_d1`
 
-变量名称：img_d1
+## 7. 重新部署并生效
 
-D1 数据库：选择刚才创建的 img_d1
+1. 在 Pages 项目中点击 **部署** 选项卡。
+2. 在最近的一条部署记录右侧点击三个点 `...`，选择 **重新部署**。
+3. 等待部署完成，访问你的 Pages 域名。
+4. **安全提醒**：首次登录后，请务必第一时间进入后台修改管理员账号、密码以及上传密码。
 
-七、 重新部署并生效
-绑定数据库后，必须进行一次重新部署才能让配置生效：
+## 8. 获取 Telegram 配置
 
-在 Pages 项目中点击 部署 选项卡。
-
-在最近的一条部署记录右侧点击三个点 ...，选择 重新部署。
-
-等待部署完成，访问你的 Pages 域名。
-
-安全提醒：首次登录后，请务必第一时间进入后台修改管理员账号、密码以及上传密码。
-
-八、 获取 Telegram 配置
-最后，你需要配置 TG 机器人来承载图片存储：
-
-获取 Token：关注机器人 @BotFather，根据提示创建一个新机器人，获取 API Token。
-
-获取 Chat ID：关注机器人 @VersaToolsBot，向其发送一条消息即可获得你的个人 Chat ID。
+1. 获取 Token：关注机器人 `@BotFather`，根据提示创建一个新机器人，获取 API Token。
+2. 获取 Chat ID：关注机器人 `@VersaToolsBot`，向其发送一条消息即可获得你的个人 Chat ID。
