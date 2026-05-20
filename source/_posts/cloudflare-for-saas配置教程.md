@@ -1,6 +1,5 @@
 ---
 title: Cloudflare for SaaS 终极教程：免费解锁自定义多域名与优选IP（保姆级防封加速指南）
-date: 2026-05-20 10:25:00
 tags:
   - Cloudflare
   - CDN加速
@@ -9,8 +8,14 @@ tags:
   - 技术科普
 categories:
   - 网络技术
-keywords: Cloudflare for SaaS, 优选IP, 自定义主机名, Cloudflare教程, CDN国内加速, 网站防封, Custom Hostnames
-description: 本文由知名技术博主山鸡带来 Cloudflare for SaaS (高级自定义主机名) 零基础保姆级配置教程。手把手教你如何零成本解决国外服务器套 CF CDN 速度慢的痛点，通过多域名策略与 CNAME 优选 IP，实现既有防火墙防护又能让国内移动/联通/电信访问速度翻倍的效果！
+keywords: >-
+  Cloudflare for SaaS, 优选IP, 自定义主机名, Cloudflare教程, CDN国内加速, 网站防封, Custom
+  Hostnames
+description: >-
+  本文由知名技术博主山鸡带来 Cloudflare for SaaS (高级自定义主机名) 零基础保姆级配置教程。手把手教你如何零成本解决国外服务器套 CF
+  CDN 速度慢的痛点，通过多域名策略与 CNAME 优选 IP，实现既有防火墙防护又能让国内移动/联通/电信访问速度翻倍的效果！
+abbrlink: 43865
+date: 2026-05-20 10:25:00
 ---
 
 大家好，我是山鸡。今天为大家带来一期关于 **Cloudflare for SaaS（自定义主机名）** 的超详细保姆级配置教程。
@@ -34,7 +39,7 @@ description: 本文由知名技术博主山鸡带来 Cloudflare for SaaS (高级
 * **CDN 与域名管理**：[Cloudflare 官网](https://www.cloudflare.com/zh-cn/)
 * **高性价比域名注册商**：[NameSilo 官网](https://www.namesilo.com/)
 * **海外云服务器推荐**：[华为国际云](https://id5.cloud.huawei.com)
-* **免费 CNAME 优选工具**：[优选域名网](https://www.wetest.vip/page/cloudflare/cname.html)
+* **免费 CNAME 优选域名**：[优选域名网](https://www.wetest.vip/page/cloudflare/cname.html)
 * **国内多节点网络测速**：[ITDOG 测速网](https://www.itdog.cn/)
 
 ---
@@ -98,7 +103,8 @@ description: 本文由知名技术博主山鸡带来 Cloudflare for SaaS (高级
 欢迎在文章下方评论区留言，或者前往我的 YouTube 频道互动。喜欢本期教程的话，别忘了**点赞、订阅并打开小铃铛**，我会持续为大家输出更多关于 Cloudflare 生态、网络加速以及 AI 自动化的硬核干货！
 ---
 
-> ### 🚀 [DJKK.me - 极致性价比之选](https://djkk.me)
+
+ ### 🚀 [DJKK.me - 极致性价比之选](https://djkk.me)
 >
 > * **超级价格**：低至 **3元/月**
 > * **流量充足**：每月 **128GB** 纯净流量。
