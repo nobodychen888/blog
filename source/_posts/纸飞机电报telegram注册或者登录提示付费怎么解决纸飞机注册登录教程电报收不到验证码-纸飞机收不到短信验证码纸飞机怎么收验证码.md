@@ -1,12 +1,13 @@
 ---
 title: Telegram 注册登录提示付费？收不到验证码解决教程（2026最新）
-date: 2026-06-04 14:03:43
 tags:
   - Telegram
   - 电报
   - 验证码
   - 登录问题
   - 教程
+abbrlink: 10150
+date: 2026-06-04 14:03:43
 ---
 
 
@@ -150,7 +151,7 @@ tags:
 
 ## 🌐 科学上网工具推荐
 
-地址：djkk.me
+地址：[DJKK官网入口（点我直达）](https://djkk.me)
 
 特点：
 
@@ -160,3 +161,4 @@ tags:
 * 🌍 BGP 协议优化
 * 🎬 解锁 Netflix、Disney+ 等流媒体
 * 🤖 支持 ChatGPT、Gemini、Claude 等 AI 平台
+
